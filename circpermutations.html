@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Discrete Mathematics</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+    <style>
+      body {
+	  font-family: "Times New Roman", Times, serif;
+	  font-size: 22px;
+	  width: 1200px;
+	  margin: auto;
+	  text-align: justify; /*stretch each line to have equal length*/
+	  line-height: 1.4 ;
+	  
+      }
+
+      h4 {
+	  margin-tom: -4px;
+	  margin-bottom: -4px;
+      }
+
+      a {
+	  color: #0F52BA;
+	  text-decoration: none;
+      }
+
+      ul.nostyle {
+	  list-style-type: none;
+      }
+
+      .center {
+	  text-align: center;
+      }
+
+      .strength {
+	  font-weight: 600;
+      }
+      
+      
+    </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <span class="center">
+	<h3>Circular permutations</a></h3>
+      </span>
+      
+    </header>
+
+  </div>
+
+  <div id="main">
+    <div>
+      <section>
+	<article>
+	  <p><strong>Problem.</strong> Suppose there are \(5\) identical blue balls and red balls. Compute the number of ways in which all the balls can be arranged in a circular manner.</p>
+
+	  <p><strong>Solution.</strong> We put the red balls in a circular fashion. Since they are identical, there is only one way to perform this. Now we have \(5\) places in which we can put the blue balls. We can put any number of blue balls in each place and the places are distinguishable. A particular arrangement is shown below.</p>
+	  <p>$$ 001011010 $$</p>
+	  <p>The \(0\)'s are the blue balls (there are \(5\) \(0\)'s). There are \(5\) places each separated by a \(1\). Then we just need to find the number of binary sequences of length \(9\) with 5 \(0\)'s and 4 \(1\)'s. This is the same as choosing \(5\) places out of \(9\) distinct places (we will put \(0\)'s in these \(5\) places and \(1\)'s in the remaining ones). The number of ways is accomplish this is:</p>
+	  <p>$$ \binom{9}{5} = \frac{9!}{5!4!} $$</p>
+	</article>
+      </section>
+    </div>
+  </div>
+
+  <hr/>
+  
+  <footer>
+    <p>Ronald Mangang<br/>IISER-M.</p>
+  </footer>
+  
+</body>
+</html>
