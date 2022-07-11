@@ -1,0 +1,33 @@
+** English Grammar: Lesson Plan
+
+I have been teaching some English grammar to two senior high school kids. This is the lesson plan.
+
+AD 2022. 07. 12. 
+
++ Sentences
+  + Affirmative
+  + Negative
+  + Interrogative
+    + Affirmative
+    + Negative
++ Verb and tense forms
+  + Indefinite time (present/past/future)
+    + base (form) verb: /write/
+    + past (form) verb: /wrote/
+    + will + base verb: /will write/
+  + Continuous [ongoing]
+    + is/am/are + present participle: /is writing/
+    + was/were + present participle: /was writing/
+    + will/shall + be + present participle: /shall be writing/
+  + Perfect [completed]
+    + has/have + past participle: /has written/
+    + had + past participle: /have written/
+    + will/shall + have + past participle: /shall have written/
+  + Perfect continuous
+    + has/have + been + present participle: /has been writing/
+    + had + been + present participle: /had been writing/
+    + will/shall + have + been + present participle: /shall have been writing/
+
+
+
+
